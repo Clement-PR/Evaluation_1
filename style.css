@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1.5px;
+  overflow-x: hidden;
+}
+
+/* ******************** NAVBAR ****************** */
+
+.navbar {
+  width: 100%;
+  height: 140px;
+  background: url(./media/tiled_geo_light.png);
+}
+
+.logo-nav {
+  float: left;
+  position: relative;
+  left: 3.5em;
+  transition: 0.2s ease-in-out;
+}
+
+.logo-nav:active {
+  cursor: pointer;
+  scale: 0.9;
+  transition: 0.2s ease-in-out;
+}
+
+.li-nav {
+  display: inline;
+  margin-left: 3em;
+  position: relative;
+  right: 25em;
+  top: 0.6em;
+}
+
+.a-nav-1 {
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  transition: 0.2s ease-in-out;
+}
+
+.a-nav-1:hover {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.a-nav-2 {
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+  color: rgba(0, 0, 0, 0.733);
+  font-size: 2em;
+  transition: 0.2s ease-in-out;
+}
+
+.a-nav-2:hover {
+  color: rgba(0, 0, 0, 0.733);
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.button-nav {
+  padding: 6px 20px;
+  text-transform: uppercase;
+  border: none;
+  background: rgb(255, 145, 0);
+  color: #fff;
+  position: relative;
+  right: 2em;
+  font-size: 1.5em;
+  transition: 0.3s ease-in-out;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+
+.button-nav:hover {
+  background: rgb(255, 94, 0);
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+/* **************************** BACKGROUND MAIN *********************** */
+
+.bg-main {
+  background: url(./media/bg-main.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 808px;
+  padding: 60px;
+}
+
+.text-place {
+  position: relative;
+  top: 15em;
+  left: 5em;
+  display: inline-block;
+  width: 800px;
+  color: #fff;
+}
+
+.title-main {
+  font-size: 6.5em;
+  letter-spacing: 3px;
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+}
+
+.trait {
+  height: 5px;
+  width: 150px;
+  margin-top: 20px;
+  background: #fff;
+  position: relative;
+  bottom: 10px;
+}
+
+.text-main {
+  display: inline;
+  text-align: center;
+  color: #fff;
+  font-size: x-large;
+}
+
+/* ************************ MAIN CONTENT *********************** */
+
+.titre-1 {
+  margin-top: 5%;
+  font-size: 2em;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  padding: 50px;
+  letter-spacing: 2px;
+}
+
+.trait-2 {
+  height: 3px;
+  width: 3.5%;
+  background: black;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 38px;
+}
+
+h5 {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.titre-2 {
+  margin-top: 5%;
+  font-size: 2em;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  padding: 50px;
+  letter-spacing: 2px;
+}
+
+.trait-3 {
+  height: 3px;
+  width: 5%;
+  background: black;
+  margin: 0 auto;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 80px;
+}
+
+.madagascar {
+  transition: ease 0.5s all;
+  background: url(./media/paysage-madagascar.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 334px;
+  width: 536px;
+  margin: 10px
+}
+
+.madagascar:hover {
+  transition: ease 0.5s all;
+  scale: 1.01;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.madagascar p {
+  font-size: 4em;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 2px 2px 3px black ;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+  top: 90px;
+}
+
+.maroc {
+  transition: ease 0.5s all;
+  background: url(./media/paysage-maroc.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 334px;
+  width: 536px;
+  margin: 10px;
+}
+
+.maroc:hover {
+  transition: ease 0.5s all;
+  cursor: pointer;
+  scale: 1.01;
+  opacity: 0.7;
+}
+
+.maroc p {
+  font-size: 4em;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 2px 2px 3px black ;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+/* ********************* IFRAME ********************* */
+
+.iframe {
+  margin-bottom: 150px;
+}
+
+/* ******************** END IFRAME ****************** */ 
+
+.titre-3 {
+  margin-top: 3%;
+  font-size: 2em;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  padding: 50px;
+  letter-spacing: 2px;
+}
+
+.trait-4 {
+  height: 3px;
+  width: 5%;
+  background: black;
+  margin: 0 auto;
+}
+
+.p-raison-etre p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.2em;
+  letter-spacing: normal;
+  margin: 0 17% 6% 17%;
+  position: relative;
+  top: 30px;
+}
+
+.background-skin-elephant {
+  background: url(./media/tiled_elephant.png) no-repeat 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 5px;
+}
+
+.button-main {
+  letter-spacing: 1px;
+  padding: 6.5px 20px;
+  text-transform: uppercase;
+  border: solid black 3px;
+  background: white;
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Bebas Neue', cursive;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  position: relative;
+  bottom: 100px;
+}
+
+.a-button {
+  color: black;
+}
+
+.a-button:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.titre-4 {
+  margin-top: 3%;
+  font-size: 2em;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  padding: 50px;
+  letter-spacing: 2px;
+}
+
+.trait-5 {
+  height: 3px;
+  width: 5%;
+  background: black;
+  margin: 0 auto;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 80px;
+}
+
+.don {
+  transition: ease 0.5s all;
+  background: url(./media/image-don.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 334px;
+  width: 536px;
+  margin: 10px;
+}
+
+.don p {
+  font-size: 4em;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 2px 2px 3px black ;
+  color: white;
+  letter-spacing: 1px;
+  margin-top: 22%;
+}
+
+.don:hover {
+  transition: ease 0.5s all;
+  scale: 1.01;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.engager {
+  transition: ease 0.5s all;
+  background: url(./media/image-engager.JPG) no-repeat 50% 50%;
+  background-size: cover;
+  height: 334px;
+  width: 536px;
+  margin: 10px;
+}
+
+.engager p {
+  font-size: 4em;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 2px 2px 3px black ;
+  color: white;
+  letter-spacing: 2px;
+  margin-top: 22%;
+}
+
+.engager:hover {
+  transition: ease 0.5s all;
+  scale: 1.01;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* ******************* FOOTER ******************* */
+
+.footer {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.background-footer {
+  background: url(./media/tiled_geo_dark.png);
+  padding: 60px 0 30px 0;
+  margin: 0;
+}
+
+hr {
+  background: white;
+  width: 50%;
+}
+
+.h3-footer {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+}
+
+.logo-WWF-footer {
+  position: relative;
+  bottom: 20px;
+}
+
+/* ********************* ICONS FOOTER ************* */
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 40px;
+}
+
+.icon-facebook, .icon-twitter, .icon-instagram, .icon-youtube, .icon-in {
+  transition: all ease 0.3s;
+}
+
+.icon-facebook:hover, .icon-twitter:hover, .icon-instagram:hover, .icon-youtube:hover, .icon-in:hover {
+  transition: all ease 0.3s;
+  scale: 1.3;
+}
+
+/* *********************** LIST LINK FOOTER ***************** */
+
+.list-info {
+  margin: 30px 0;
+}
+
+.list-info li {
+  list-style: none;
+  display: inline;
+}
+
+.list-info a {
+  transition: ease all 0.3s;
+  color: #fff;
+  letter-spacing: 0.5;
+  padding: 20px;
+}
+
+.list-info a:hover {
+  transition: ease all 0.3s;
+  color: rgb(167, 162, 162);
+  text-decoration: none;
+}
+
+/* ****************** COPYRIGHT *************** */
+
+.copyright {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.568);
+  font-size: 1.2em;
+}
+
+/* ****************** MEDIA QUERIES ************** */
+
+/* ****************** BREAKPOINT ***************** */
+
+@media only screen 
+   and (max-width : 1364px) {
+   .li-nav {
+    right: 20em;
+    top: 0.6em;
+   }
+}
+
+@media only screen 
+   and (max-width : 1032px) {
+   .li-nav {
+    position: relative;
+    left: 0px;
+    font-size: 0.9em;
+   }
+   .text-place {
+     width: 600px;
+   }
+   .title-main {
+     font-size: 5em;
+     letter-spacing: 2.5px;
+   }
+   .trait {
+     height: 4px;
+     width: 130px;
+   }
+   .text-main {
+     font-size: 1.2em;
+   }
+   .navbar {
+     height: 120px;
+   }
+   .logo-nav-2 {
+    height: 95px;
+    width: auto;
+   }
+}
+
+@media only screen 
+   and (max-width : 440px) {
+    .li-nav {
+      font-size: 0.6em;
+      margin-left: 1em;
+    }
+}
+
+@media only screen 
+   and (max-width : 580px) {
+    .text-place {
+      position: absolute;
+      margin-top: 90px;
+      font-size: 0.8em;
+    }
+}
+
+@media only screen 
+   and (max-width : 496px) {
+    .text-place {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      top: 150px;
+      left: -65px;
+    }
+}
+
+@media only screen 
+   and (max-width : 441px) {
+    .madagascar p {
+      font-size: 2.1em;
+    }
+    .maroc p {
+      font-size: 1.9em;
+      bottom: 110px;
+    }
+    .p-raison-etre {
+      font-size: 0.8em;
+    }
+}
+
+/* ******************* LAPTOP ********************* */
+
+@media only screen 
+   and (max-width : 1200px) {
+    .li-nav {
+      right: 15em;
+      top: 0.6em;
+    }
+}
+
+
+/* ******************* TABLET ********************** */
+
+@media only screen 
+   and (max-width : 768px) {
+   .button-nav {
+     display: none;
+   }
+   .navbar {
+     height: 110px;
+   }
+   .logo-nav-2 {
+     height: 80px;
+     width: auto;
+   }
+   .li-nav {
+     font-size: 0.7em;
+   }
+   .text-place {
+    width: 450px;
+  }
+  .title-main {
+    font-size: 3.5em;
+    letter-spacing: 2px;
+  }
+  .trait {
+    height: 3.5px;
+    width: 115px;
+  }
+  .text-main {
+    font-size: 1.5em;
+  }
+  .madagascar p {
+    font-size: 2.9em;
+  }
+  .maroc p {
+    font-size: 2.65em;
+    top: 100px;
+  }
+  .p-raison-etre p {
+    font-size: 2em;
+  }
+  .button-main {
+    padding: 5px 13px;
+    font-size: 1.1em;
+  }
+  .don p {
+    font-size: 2.9em;
+    margin-top: 30%;
+  }
+  .engager p {
+    font-size: 2.9em;
+    margin-top: 30%;
+  }
+  .logo-WWF-footer-2 {
+    height: 90px;
+    width: auto;
+  }
+  .list-icons {
+    height: 25px;
+    width: auto;
+  }
+  .list-icons {
+    margin: 20px 0;
+  }
+  .list-info {
+    margin: 3px 0;
+  }
+  .list-info li {
+    display: block;
+    font-size: 0.9em;
+    padding: 3px;
+    text-align: center;
+    position: relative;
+    right: 20px;
+  }
+  .copyright {
+    font-size: 1em;
+  }
+  .bg-main {
+    background: url(./media/bg-main.jpg) no-repeat fixed 80% 80%;
+    background-size: cover;
+    height: 808px;
+    padding: 60px;
+  }
+}
+
+
+/* ****************** SMART PHONE ******************* */
+
+@media only screen 
+  and (max-width : 320px) {
+    .text-place {
+      display: inline;
+      font-size: 10px;
+      position: relative;
+      left: -40px;
+    }
+    .li-nav {
+      font-size: 0.49em;
+    }
+    .logo-nav-2 {
+      height: 60px;
+      width: auto;
+    }
+    .navbar {
+      height: 90px;
+    }
+    .madagascar p {
+      font-size: 2em;
+      top: 120px;
+    }
+    .maroc p {
+      font-size: 2em;
+      top: 100px;
+    }
+    .p-raison-etre p {
+      font-size: 1.4em;
+    }
+    .button-main {
+      padding: 5px 13px;
+      font-size: 1em;
+    }
+    .don p {
+      font-size: 2em;
+      margin-top: 130px;
+    }
+    .engager p {
+      font-size: 2em;
+      margin-top: 130px;
+    }
+    .logo-WWF-footer-2 {
+      height: 80px;
+      width: auto;
+    }
+    .list-icons {
+      height: 20px;
+      width: auto;
+    }
+}
+
+
+/* ************************ END ******************** */
+
+
+
+
+
